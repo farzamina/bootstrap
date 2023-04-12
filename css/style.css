@@ -1,0 +1,32 @@
+.a_navbar, .a_footer{ 
+    width: 100%; 
+    min-height: 70px; 
+    background-color: #0169FF; 
+    float: left;
+    margin-top: 15px;
+} 
+ 
+.a_navbar{
+    margin-bottom: 15px; 
+} 
+ 
+.a_nav, .a_content, .a_sidebar{ 
+    width: 100%; 
+    min-height: 470px; 
+    background-color: #66A3FE; 
+    float: left;
+} 
+ 
+.a_footer{ 
+    margin-top: 15px; 
+} 
+ 
+@media only screen and (max-width: 600px){ 
+    .a_nav, .a_content, .a_sidebar{ 
+        min-height: 150px; 
+    } 
+ 
+    .a_content{ 
+        margin: 15px 0; 
+    } 
+}
